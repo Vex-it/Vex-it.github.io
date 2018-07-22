@@ -22,7 +22,7 @@
     success: function(data) {
      /* alert("hi my name is: " + data.full_name); */
         
-        document.write("hello" + data.full_name);
+        document.write("Your Local MP is" + data.full_name + "and his party is" + data.party);
 
     },
     error: function() {
