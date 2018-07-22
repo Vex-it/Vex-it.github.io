@@ -8,7 +8,6 @@
     
     
     
-    
     <head>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <title>HTML source of <?php echo $url; ?></title>
@@ -24,6 +23,10 @@
         
         document.write("Your Local MP is" + data.full_name + "and his party is" + data.party);
 
+        document.write("<img src=\"https://www.theyworkforyou.com/images/");
+        document.write(data.images);
+        
+        document.write("\" alt=\"Smiley face\" height=\"42\" width=\"42\">");
     },
     error: function() {
       alert("error");
