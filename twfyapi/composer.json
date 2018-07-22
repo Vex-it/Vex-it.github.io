@@ -1,0 +1,29 @@
+{
+  "name": "rubenarakelyan/twfyapi",
+  "description": "PHP wrappers for the TheyWorkForYou.com and OpenAustralia.org.au APIs",
+  "homepage": "https://github.com/rubenarakelyan/twfyapi",
+  "authors": [
+    {
+      "name": "Ruben Arakelyan",
+      "email": "ruben@ra.me.uk",
+      "homepage": "https://ruben.am/",
+      "role": "Developer"
+    }
+  ],
+  "keywords": [
+	"php",
+	"theyworkforyou",
+	"openaustralia",
+	"api"
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RubenArakelyan\\TWFYAPI\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "minimum-stability": "stable"
+}
