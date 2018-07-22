@@ -4,7 +4,7 @@
         <script type="text/javascript" src="https://www.theyworkforyou.com/api/getMP?postcode=IG3+8PY&output=js&key=BkHPEZAtrgNGBMmPzJGZgMqa"></script>
              <script type="text/javascript" >
                 function load() {
-                     var mydata = JSON.parse(data);
+                     var mydata = JSON.parse();
                      alert(mydata.length);
 
                      var div = document.getElementById('data');
