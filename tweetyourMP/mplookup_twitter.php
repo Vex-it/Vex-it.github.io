@@ -99,7 +99,7 @@ $senderpostcode2 = preg_replace( $sPattern, $sReplace, $senderpostcode );
 
 // send the query to theyworkforyou.com (twfy)
  
-$mps = $twfyapi->query('getConstituency', array('output' => 'php', 'postcode' => $senderpostcode2));
+$mps = $twfyapi->query('getMP', array('output' => 'php', 'postcode' => $senderpostcode2));
 
 
 // the next bit sorts the data you get back from twfy. It's not very elegant and could probably be done
