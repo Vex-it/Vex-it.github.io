@@ -19,7 +19,7 @@
     <!--<?php $_GET['link']; ?>-->
 <script>$(document).ready(function(){
   $.ajax({
-    url: "https://www.theyworkforyou.com/api/getMP?postcode= <?php echo $_GET["pc"]; ?>&output=js&key=BkHPEZAtrgNGBMmPzJGZgMqa",
+    url: "https://www.theyworkforyou.com/api/getMP?postcode=<?php echo $_GET["pc"]; ?>&output=js&key=BkHPEZAtrgNGBMmPzJGZgMqa",
     dataType: 'json',
     success: function(data) {
      /* alert("hi my name is: " + data.full_name); */
