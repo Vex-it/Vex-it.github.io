@@ -25,8 +25,8 @@ var s = '<?php echo htmlspecialchars(file_get_contents($url)); ?>';
 var obj = JSON.parse(s);
 
 document.getElementById("user").innerHTML =
-"Name: " + obj.first_name + " " + obj.last_name + "<br>" +
-"Location: " + obj.location;
+"Name: " + obj.given_name + " " + obj.family_name + "<br>" +
+"Location: " + obj.party;
 </script>
 
 </body>
