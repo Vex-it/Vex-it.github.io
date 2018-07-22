@@ -23,7 +23,7 @@
         
         document.write("Your Local MP is" + data.full_name + "and his party is" + data.party);
 
-        document.write("<img src=\"https://www.theyworkforyou.com/images/");
+        document.write("<img src=\"https://www.theyworkforyou.com/images");
         document.write(data.image);
         
         document.write("\" alt=\"Smiley face\" height=\"42\" width=\"42\">");
